@@ -13,12 +13,12 @@ spring:
     mail:
         username: pt_liangyue@outlook.com
         password: 123456789
-        host: smtp.exmail.qq.com
+        host: smtp.office365.com
+        port: 587
         properties:
             mail.smtp.ssl.auth: true
             mail.smtp.ssl.enable: true
             mail.smtp.ssl.required: true
-        port: 25
 server:
     port: 8931
 
